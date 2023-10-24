@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* -------------------------------------------------HEADER CONTENT START-------------------------------------------*/
+
+.header-container{
+    background-color: rgba(217, 217, 217, 1);
+    width: 100vw;
+    height: 6rem;
+    margin-bottom: 6rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#menu-icon{
+    height: 40px;
+    width: 35px;
+    margin-top: 2.8rem;
+    margin-left: 5rem;
+    
+}
+#search-input{
+    margin-left: 2rem;
+    margin-top: 2.7rem;
+    background-color:rgba(217, 217, 217, 1);
+    font-style: italic;
+    color: black;
+    width: 5rem;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+
+}
+#web-name{
+    text-align: center;
+    margin-top: -5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#slogan-text{
+    margin-left: 35rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    position: absolute;
+}
+
+#email-icon{
+   float: right;
+   margin-right: 12rem;
+   margin-top: -1rem;
+
+}
+#account-icon{
+    float: right;
+    margin-top: -1rem;
+    margin-right: 6rem;
+}
+
+
+
+/* -------------------------------------------------HEADER CONTENT END-------------------------------------------*/
+
+/* -------------------------------------------------BODY CONTENT START-------------------------------------------*/
+
+body{
+    scroll-behavior: smooth;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+
+/* --------------CART TOTAL START---------*/
+
+
+#cart-total-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 70.5rem;
+    margin-top: -4rem;
+
+
+}
+#cart-bal-text{
+    font-variant: unset;
+    position: absolute;
+    margin-top: -4.2rem;
+    margin-left: 72rem;
+    width: fit-content;
+}
+
+
+/* --------------CART TOTAL END---------*/
+
+
+
+
+
+/* --------------FILTER SECTION START---------*/
+
+
+#filter-text{
+    
+    margin-left: 40rem;
+    margin-top: -2rem;
+    position: absolute;
+    font-weight: bold;
+}
+
+.filterOptions-container{
+    height: 66px;
+    width: 1100px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    background: rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+select{
+    margin: 1.5rem;
+    width: 13rem;
+}
+#color-text{
+    position: absolute;
+    margin-left: 7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+#size-text{
+    position: absolute;
+    margin-left:33rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+#price-text{
+    position: absolute;
+    margin-left:60rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* --------------FILTER SECTION END---------*/
+
+
+/* --------------HOODIES SECTION START---------*/
+
+.hoodies-container{
+    width: 65rem;
+    height: 25rem;
+    box-shadow: 0px 4px 4px 12px rgba(0, 0, 0, 0.4);
+    margin-left: 6rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+
+}
+#hoodies-text{
+    position: absolute;
+    margin-left: 30rem;
+    font-weight: bold;
+    padding-top:0.4rem;
+}
+.hoodies{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+}
+#hoodie2{
+    margin-left: -2rem;
+}
+#hoodie3{
+    margin-top: .9rem;
+}
+
+#h1-price{
+    position: absolute;
+    margin-top: 21rem;
+    margin-left: 9rem;
+    font-weight: 900;
+}
+#h2-price{
+    position: absolute;
+    margin-top: 21rem;
+    margin-left: 31rem;
+    font-weight: 900;
+}
+#h3-price{
+    position: absolute;
+    margin-top: 21rem;
+    margin-left: 54rem;
+    font-weight: 900;
+}
+
+#h1-cart-icon{
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 9rem;
+}
+#fav1-icon{
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 11rem;
+}
+
+#h2-cart-icon{
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 31rem;
+
+}
+#fav2-icon{
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 33rem;
+
+}
+
+#h3-cart-icon{
+    position: absolute;
+    margin-left: 54rem;
+    margin-top: 23rem;
+
+}
+#fav3-icon{
+    position: absolute;
+    margin-left: 56rem;
+    margin-top: 23rem;
+
+
+}
+
+/* --------------HOODIES SECTION END---------*/
+
+/* --------------SHIRT SECTION START---------*/
+
+
+
+
+
+.shirts-container{
+    width: 65rem;
+    height: 25rem;
+    box-shadow: 0px 4px 4px 12px rgba(0, 0, 0, 0.4);
+    margin-left: 6rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+
+#shirts-text{
+    position: absolute;
+    margin-left: 32rem;
+    font-weight: bolder;
+    margin-top: 7px;
+    width: fit-content;
+}
+
+.shirts{
+    height: 20rem;
+    width: 20rem;
+}
+
+#shirt1{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+#shirt2{
+    margin-left: -2rem;
+    margin-top: 2rem;
+}
+
+#shirt3{
+    margin-left: -2rem;
+    margin-top: 2rem;
+    height: 19.5rem;
+    width: 19.5rem;
+}
+
+#s1-price{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 22rem;
+
+}
+
+#s2-price{
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: 21rem;
+
+}
+
+#s3-price{
+    position: absolute;
+    margin-left: 53rem;
+    margin-top: 21rem;
+
+}
+
+
+#s1-cart-icon{
+    position: absolute;
+    margin-top: 23.5rem;
+    margin-left: 10rem;
+}
+#s1-fav1-icon{
+    position: absolute;
+    margin-top: 23.5rem;
+    margin-left: 12rem;
+}
+#s2-cart-icon{
+    position: absolute;
+    margin-top: 22.5rem;
+    margin-left: 33rem;
+
+}
+#s2-fav1-icon{
+    position: absolute;
+    margin-top: 22.5rem;
+    margin-left: 35rem;
+}
+#s3-cart-icon{
+    position: absolute;
+    margin-top: 22.5rem;
+    margin-left: 53.4rem;
+}
+#s3-fav1-icon{
+    position: absolute;
+    margin-top: 22.5rem;
+    margin-left: 55rem;
+}
+/* --------------SHIRT SECTION END---------*/
+
+footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+
